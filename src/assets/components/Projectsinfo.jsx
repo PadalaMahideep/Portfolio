@@ -11,8 +11,8 @@ const Projectsinfo = () => {
       title: "BOXOFFICE",
       Matter:
         "A website created using Tvmaze Api where u find information about series/movies",
-      demolnk: "https://padalamahideep.github.io/box_office/",
       githublink: "",
+      demolnk: "https://padalamahideep.github.io/box_office/#/",
     },
     {
       id: 2,
@@ -20,6 +20,7 @@ const Projectsinfo = () => {
       title: "Tic-Tac-Toe",
       Matter: "A simple game u can chill with ur friends",
       githublink: "",
+      demolink: "https://tic-tac-toe-reactxo.netlify.app/",
     },
     {
       id: 3,
@@ -27,12 +28,14 @@ const Projectsinfo = () => {
       title: "Move Express",
       Matter: "A prograssive Web-App which delivers Goods",
       demolink: "https://padalamahideep.github.io/PadalaMahideep2.github.io/",
+      githublink: "",
     },
     {
       id: 4,
       image: xssimage,
       title: "Cross-Site- Scripting(XSS)",
       Matter: "Sample website to demonstrate about cross site scripting",
+      demolink: "",
       githublink: "https://github.com/PadalaMahideep/Cross-site-scripting-xss",
     },
   ];
