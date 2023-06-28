@@ -173,8 +173,8 @@
 .skillcard {
   text-align: center;
   align-items: center;
-  padding: 30px;
   color: #fff;
+  padding-left: 50px;
 }
 
 .skillcard h1 {
@@ -663,6 +663,11 @@
 }
 
 @media (max-width: 480px) {
+  .loader {
+    height: 250px;
+    margin: 25px;
+    align-items: center;
+  }
   .row {
     flex-direction: column;
     margin: none;
