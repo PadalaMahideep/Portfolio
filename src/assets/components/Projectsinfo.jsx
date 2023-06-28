@@ -2,6 +2,7 @@ import xssimage from "./Images/xss.jpeg";
 import boxofficeimg from "./Images/boxoffice.jpeg";
 import ticimg from "./Images/tic-tac-toe.jpeg";
 import resimg from "./Images/Responsive.jpeg";
+import Mathsimg from "./Images/Mathsuc.jpg";
 
 const Projectsinfo = () => {
   const pj = [
@@ -10,7 +11,7 @@ const Projectsinfo = () => {
       image: boxofficeimg,
       title: "BOXOFFICE",
       Matter:
-        "A website created using Tvmaze Api where u find information about series/movies",
+        "A website created using Tvmaze Api where u find information about series/movies developed using Reactjs",
       githublink: "",
       demolnk: "https://padalamahideep.github.io/box_office/#/",
     },
@@ -18,7 +19,8 @@ const Projectsinfo = () => {
       id: 2,
       image: ticimg,
       title: "Tic-Tac-Toe",
-      Matter: "A simple game u can chill with ur friends",
+      Matter:
+        "A simple game u can chill with ur friends developed using Reactjs",
       githublink: "",
       demolink: "https://tic-tac-toe-reactxo.netlify.app/",
     },
@@ -37,6 +39,14 @@ const Projectsinfo = () => {
       Matter: "Sample website to demonstrate about cross site scripting",
       demolink: "",
       githublink: "https://github.com/PadalaMahideep/Cross-site-scripting-xss",
+    },
+    {
+      id: 5,
+      image: Mathsimg,
+      title: "Unit-Convertor",
+      Matter: "unit conversions ",
+      demolink: "https://padalamahideep.github.io/Unit-convertor/",
+      githublink: "https://github.com/PadalaMahideep/Unit-convertor",
     },
   ];
 
