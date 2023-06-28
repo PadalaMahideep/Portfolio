@@ -33,7 +33,7 @@ const project = [
   },
   {
     id: 5,
-    title: "Python",
+    title: "Reacjs",
     image: Reactimage,
   },
   {
